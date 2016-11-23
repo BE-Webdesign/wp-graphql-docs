@@ -20,30 +20,20 @@ Once you have WordPress installed and running you will want to clone this git re
 
 ### Using Composer
 
-Composer comes with things like VVV and is why VVV is a great choice for running
-a developer environment. Composer is basically a tool that helps manage packages
-and dependencies for PHP projects. Composer is used for three things on this
-plugin: load WebOnyx GraphQL library, install PHPUnit for unit testing, and
-finally it will auto-load all of the necessary files for the plugin.
+Composer comes with things like VVV and is why VVV is a great choice for running a developer environment. Composer is basically a tool that helps manage packages and dependencies for PHP projects. Composer is used for three things on this plugin: load WebOnyx GraphQL library, install PHPUnit for unit testing, and finally it will auto-load all of the necessary files for the plugin.
 
-When you have composer running on your developer environment you will want to
-locate the directory for wp-graphql. Once you are in the wp-graphql directory
-you will want to enter:
+When you have composer running on your developer environment you will want to locate the directory for wp-graphql. Once you are in the wp-graphql directory you will want to enter:
 
 ```
 composer install
 ```
 
-This will install all of the dependencies for the project and add a vendor
-folder to the project containing these dependencies. When adding new files you
-may notice that they are not loading into the project. If you follow the
-namespaces already set up, you can easily load the new file by running:
+This will install all of the dependencies for the project and add a vendor folder to the project containing these dependencies. When adding new files you may notice that they are not loading into the project. If you follow the namespaces already set up, you can easily load the new file by running:
 
 ```
 composer dump-autoload
 ```
 
-This will regenerate all of the auto loaded files bringing in the ones that are
-missing. The top level namespace is `BEForever\WPGraphQL`.
+This will regenerate all of the auto loaded files bringing in the ones that are missing. The top level namespace is `BEForever\WPGraphQL`.
 
 **The plugin should now be functional!**
