@@ -25,7 +25,7 @@ GraphiQL is a tool that makes working with GraphQL incredibly easy. It features 
 
 ### ChromieQL
 
-Once ChromieQL is installed, you will want to open it up from the icon in the upper right of chrome. It should look something like this:
+After installing ChromieQL, you will want to open it up from the icon in the upper right of Chrome. It should look something like this:
 
 ![](ChromieQL.png)
 
