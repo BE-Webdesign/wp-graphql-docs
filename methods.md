@@ -15,10 +15,10 @@ console.log('My first method');
 ```
 
 {% sample lang="php" %}
-Here is how to print a message to `stdout` using Go.
+Here is how to print a message to `stdout` using PHP.
 
 ```php
-fmt.Println("My first method")
+echo 'OMG';
 ```
 
 {% common %}
