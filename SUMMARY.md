@@ -1,5 +1,5 @@
 # Summary
 
-* [My Awesome API](README.md)
+* [WP GraphQL Introduction](README.md)
 * [Reference](methods.md)
 
