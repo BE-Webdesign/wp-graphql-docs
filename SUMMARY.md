@@ -3,5 +3,5 @@
 * [WP GraphQL Introduction](README.md)
    * [Installing](installing.md)
    * [Using](using.md)
-* [Reference](methods.md)
+* [Reference](methodsmd.md)
 
