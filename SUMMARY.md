@@ -1,6 +1,6 @@
 # Summary
 
 * [WP GraphQL Introduction](README.md)
-   * Installing
+   * [Installing](installing.md)
 * [Reference](methods.md)
 
