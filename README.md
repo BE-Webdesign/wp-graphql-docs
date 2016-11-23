@@ -47,6 +47,9 @@ There are a number of reasons why you would want to use GraphQL, but one stands 
 
 Here you can see the power of GraphQL querying. We declare what we want in the query and the response from the API will return the matching data. The query uses only one HTTP request. The query dictates the shape of our data, not the response. Notice how we also specify each field we want in the query and how each field can also be another type of data. This allows us to retrieve the data we need, whereas other types of APIs do not provide this flexibility. This makes GraphQL uniquely suited for any application that has a user interface.
 
+## Why should I use GraphQL with WordPress
+WordPress is an incredible tool for a huge variety of use cases. WordPress 4.7 ushered in a shiny new REST API, so why should we consider using WP GraphQL? GraphQL enables you to have the power over your responses and fetch the data you want. There is only one endpoint; `mysite.com/graphql`. When you send in your query you get to specify everything that you need in just one request. This gives GraphQL some performance benefits as well. 
+
 ## Contributors and Sources
 WP GraphQL piggybacks on top of WebOnyx's GraphQL PHP implementation, which borrows from Facebook's reference implementation in JavaScript. Please head to the [wp-graphql github repo](https://github.com/BE-Webdesign/wp-graphql) to help contribute.
 
