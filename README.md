@@ -1,5 +1,5 @@
 # Welcome to WP GraphQL.
-WP GraphQL is a plugin that enables a GraphQL API for your WordPress install. **It is not currently ready for production. Please do not enable this plugin where security is critical.** Once the plugin is brought into beta testing, it will most likely be secure.
+WP GraphQL is a plugin that enables a GraphQL API for your WordPress install. **It is not currently ready for production. Please do not enable this plugin where security is critical.** Once the plugin is brought into beta testing, it will most likely be secure-ish.
 
 ## What is GraphQL
 GraphQL is a technical specification, developed by Facebook, for an application level query language. What does that mean? Basically GraphQL provides a consistent way to make declarative queries, which will enable you to more easily retrieve the data you want and the shape that you want it in. GraphQL can be implemented in any language and can cover a vast amount of use cases. WP GraphQL exposes a WordPress installation's data through a GraphQL endpoint. You can send a GraphQL query over HTTP and as a response you will get the matching JSON representation of your data.
