@@ -37,3 +37,6 @@ composer dump-autoload
 This will regenerate all of the auto loaded files bringing in the ones that are missing. The top level namespace is `BEForever\WPGraphQL`.
 
 **The plugin should now be functional!**
+
+## Future Notes
+Eventually this plugin will not require the use of composer or build tools to work and will be place on the WordPress.org plugin repository. Stay tuned for future developments.
