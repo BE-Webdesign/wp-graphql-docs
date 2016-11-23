@@ -8,11 +8,9 @@ comes highly recommended!
 ## GraphiQL
 To use GraphiQL for PHP install this [chrome extension; ChromieQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij)
 
-You will want to set the endpoint area to `http://local.mywordpress.dev/graphql`.
-Basically whatever url you are using for your WordPress install and `/graphql`.
+You will want to set the endpoint area to `http://local.mywordpress.dev/graphql`. Basically whatever url you are using for your WordPress install and `/graphql`.
 
-All this is really doing is sending the GraphQL query string as a HTTP request
-data which is then parsed by this plugin and executed by the GraphQL plugin.
+All this is really doing is sending the GraphQL query string as a HTTP request data which is then parsed by this plugin and executed by the GraphQL plugin.
 
 ## JavaScript Fetch API
 To use WP GraphQL in a JavaScript app you can use the Fetch API or good old XMLHTTPRequest. Here is a basic example using the Fetch API. (The example below is put in es5, for the sake of compatability, but it looks even better in es6!) The example below is very rough, and is only intended as a working demonstration:
@@ -50,3 +48,6 @@ fetch(someUrl)
         return response.data;
     });
 ```
+
+### Future Client Library
+When the server side portion of GraphQL is more developed and features proper authentication, security measures, and better infrastructure, a JavaScript client library will be developed to make it quick and easy to use WP GraphQL client side in JavaScript. Alternatively, Relay can be used once WP GraphQL is Relay compliant.
