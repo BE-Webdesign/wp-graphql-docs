@@ -1,30 +1,44 @@
-# Defining Methods
+# Reference
+This reference serves as a way to view the current capabilities of GraphQL and explore it's type system.  **The reference may be out of date and it is advised to go by the auto documentation provided by GraphiQL**
 
-Methods allow you to smoothly display code examples in different languages.
+## WP GraphQL Capabilities
 
-{% method %}
-## My first method
+* post(id: ID!): Post
+* posts(first: Int after: Int): [Post]
+* user(id: ID!): User
+* users(first: Int after: Int): [User]
+* comment(id: ID!): Comment
+* comments(first: Int after: Int): [Comment]
+* term(id: ID!): Term
+* terms(first: Int after: Int): [Term]
+* taxonomy(name: String!): Taxonomy
+* taxonomies(first: Intafter: Int): [Taxonomy]
+* menu_item(id: ID!): MenuItem
+* menu(id: IDname: Stringslug: String): Menu
+* menu_location(slug: String!): MenuLocation
+* menu_locations: [MenuLocation]
+* theme(slug: String!): Theme
+* themes(first: Intafter: Int): [Theme]
+* plugin(slug: String!): Plugin
+* plugins(first: Intafter: Int): [Plugin]
+* hello: String
 
-My first method exposes how to print a message in JavaScript and Go.
 
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
 
-```js
-console.log('My first method');
-```
 
-{% sample lang="php" %}
-Here is how to print a message to `stdout` using PHP.
 
-```php
-echo 'OMG';
-```
 
-{% common %}
-Whatever language you are using, the result will be the same.
 
-```bash
-$ My first method
-```
-{% endmethod %}
+
+
+
+
+
+
+
+
+
+
+
+
+
