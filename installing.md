@@ -14,8 +14,7 @@ You can download WordPress manually and follow the wonderful instructions on
 [VVV:](https://github.com/Varying-Vagrant-Vagrants/VVV)
 If you are a more experienced user or want to try something new, I highly recommend
 VVV. VVV comes with all of the tools you need. Essentially you install [Vagrant](https://www.vagrantup.com/)
-and a VM. I like [VirtualBox VM](https://www.virtualbox.org/) but Vagrant
-supports many others.
+and a VM. I like [VirtualBox VM](https://www.virtualbox.org/) but Vagrant supports many others.
 
 [Chassis:](https://github.com/Chassis/Chassis)
 Chassis is along the same line as VVV, but is more modularized. It requires more
