@@ -29,7 +29,7 @@ Once ChromieQL is installed, you will want to open it up from the icon in the up
 
 ![](ChromieQL.png)
 
-You will want to set the endpoint to match your WP GraphQL endpoint. `http://local.mywordpress.dev/graphql`. The endpoint is set in the top banner's center input. The left column is where you will want to put your GraphQL query. The left column also features instructions on how to complete a query.
+You will want to set the endpoint to match your WP GraphQL endpoint. The endpoint is set in the top banner's center input. The left column is where you will want to put your GraphQL query. The left column also features instructions on how to complete a query.
 
 Towards the upper right will be an expandable menu labeled `Docs`. The Documentation Explorer enables you to look through the available queries and types for WP GraphQL. This is an indispensable tool to quickly understand WP GraphQL's type system.  
 
