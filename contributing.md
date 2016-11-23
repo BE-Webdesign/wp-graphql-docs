@@ -57,7 +57,7 @@ This will load the configuration file for a multisite test suite.
 
 #### Continuous Integration
 
-The Github Repo handles continuous integration via TravisCI. When you make a pull Request against WP GraphQL the test suite will automatically run against the new commit. This process helps maintain compatibility between particular versions of WordPress, PHP, and WP GraphQL. To make amendments to the TravisCI build you need to edit the `travis.yml` file.
+The Github Repo handles continuous integration via TravisCI. When you make a pull Request against WP GraphQL the test suite will automatically run against the new commit. This process helps maintain compatibility between particular versions of WordPress, PHP, and WP GraphQL. To make amendments to the TravisCI build process, you need to edit the `travis.yml` file.
 
 ## Code of Conduct
 
