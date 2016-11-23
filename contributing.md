@@ -25,10 +25,7 @@ a very clean final product.
 
 ### Documentation
 
-Inline documentation is great and should be used. Especially when tricky
-things are going on in the code that someone may be unfamiliar with. They can
-also be used to describe the intent of the code and document any decisions being
-made.
+Inline documentation is great. Please use it when tricky things are going on in the code that someone may be unfamiliar with. Inline documentation to describe the intent of the code and document any decisions.
 
 For project level documentation, use the [`gh-pages` branch of the WP GraphQL repository](https://github.com/BE-Webdesign/wp-graphql/tree/gh-pages).
 
