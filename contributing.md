@@ -30,11 +30,7 @@ things are going on in the code that someone may be unfamiliar with. They can
 also be used to describe the intent of the code and document any decisions being
 made.
 
-For project level documentation, details should be placed into the respective
-README.md files so that users of this GitHub repo can quickly view things.
-Eventually, either a GitHub pages site will be created, or I can spin up a WordPress
-site to host the documentation on. It would be really cool to use WordPress and
-test out the GraphQL API on the documentation site.
+For project level documentation, use the [`gh-pages` branch of the WP GraphQL repository](https://github.com/BE-Webdesign/wp-graphql/tree/gh-pages).
 
 ### Test Coverage
 
