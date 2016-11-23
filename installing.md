@@ -28,7 +28,7 @@ When you have composer running on your developer environment you will want to lo
 composer install
 ```
 
-This will install all of the dependencies for the project and add a vendor folder to the project containing these dependencies. When adding new files you may notice that they are not loading into the project. If you follow the namespaces already set up, you can easily load the new file by running:
+This will install all of the dependencies for the project and add a vendor folder to the project containing these dependencies. When adding new files, you may notice that sometimes they are not being automattically loaded. If you follow the namespaces convention `\BEForever\WPGraphQL\` already set up, you can easily load the new file by running:
 
 ```
 composer dump-autoload
