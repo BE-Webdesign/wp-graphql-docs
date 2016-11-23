@@ -31,9 +31,9 @@ Once ChromieQL is installed, you will want to open it up from the icon in the up
 
 You will want to set the endpoint to match your WP GraphQL endpoint. The endpoint is set in the top banner's center input. The left column is where you will want to put your GraphQL query. The left column also features instructions on how to complete a query.
 
-Towards the upper right will be an expandable menu labeled `Docs`. The Documentation Explorer enables you to look through the available queries and types for WP GraphQL. This is an indispensable tool to quickly understand WP GraphQL's type system.  
+Towards the upper right will be an expandable menu labeled `Docs`. The Documentation Explorer displays the available queries and types for WP GraphQL. This is an indispensable tool for understanding WP GraphQL's type system.  
 
-All this is really doing is sending the GraphQL query string as HTTP request data which is then parsed and executed by the WP GraphQL plugin.
+ChromieQL is a great debugging tool for when you want to use WP GraphQL in an actual app.
 
 ## JavaScript Fetch API
 To use WP GraphQL in a JavaScript app you can use the Fetch API or good old XMLHTTPRequest. Here is a basic example using the Fetch API. (The example below is put in es5, for the sake of compatibility, but it looks even better in es6!) The example below is very rough, and is only intended as a working demonstration:
