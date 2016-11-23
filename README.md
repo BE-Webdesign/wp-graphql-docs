@@ -9,7 +9,7 @@ There are a number of reasons why you would want to use GraphQL, but one stands 
 
 ```
 {
-  menu_location(name: "primary") {
+  menu_location(slug: "primary") {
     active_menu {
       items {
         url,
