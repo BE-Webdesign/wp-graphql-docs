@@ -33,7 +33,7 @@ You will want to set the endpoint to match your WP GraphQL endpoint. The endpoin
 
 Towards the upper right will be an expandable menu labeled Docs. The Documentation Explorer displays the available queries and types for WP GraphQL. This is an indispensable tool for understanding WP GraphQL's type system.  
 
-ChromieQL is a great debugging tool. I recommend messing around with ChromieQL a bit first before you try tackling using WP GraphQL in an actual application, plugin or theme.
+ChromieQL is a great debugging tool. I recommend exploring with ChromieQL before you try using WP GraphQL in an application, plugin or theme.
 
 ## JavaScript Fetch API
 To use WP GraphQL in a JavaScript app you can use the Fetch API or good old XMLHTTPRequest. Here is a basic example using the Fetch API. The example below is in es5, for the sake of compatibility, but it looks even better in es6! The example below is very rough, and is only intended as a working demonstration:
@@ -76,4 +76,4 @@ fetch(someUrl)
 ```
 
 ### Future Client Library
-When the server side portion of GraphQL is more developed and features proper authentication, security measures, and better infrastructure, a JavaScript client library will be developed to make it quick and easy to use WP GraphQL client side in JavaScript. Alternatively, Relay can be used once WP GraphQL is Relay compliant.
+When the server side of WP GraphQL is more developed, featuring proper authentication, security measures, and better infrastructure, a JavaScript client library will be developed to make it quick and easy to use WP GraphQL client side. Relay can be used once WP GraphQL is Relay compliant.
