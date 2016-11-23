@@ -5,14 +5,14 @@
 A loose plan in an order that I think makes sense: feel free to chime in with
 your thoughts! I am probably missing some important items as well.
 
-1. Get object types for single resources set up and in good shape. Post, User,
-Taxonomy, Term, Comment, Pingback, Theme, Plugin, etc. Don't worry about authorization yet.
+1. ~~Get basic WordPress data types supported.~~
+2. Add descriptions for type system. Clean up type system code.
 2. Improve the infrastructure around serving requests.
-3. Implement Authentication for WP GraphQL most likely Basic Auth at first, so
+3. Implement Authentication for WP GraphQL. Basic Auth at first, so
 proper authorization can be built out for the project and security will be in a
 decent starting place.
-4. Get collection types implemented. Then build special query types as well to mirror
-WP_Query and the various flavors of it.
+4. Make Relay compliant collection types.
+5. Add hooks and filters for extending.
 5. Start backporting the library and plugin to PHP 5.2 if necessary ( maybe WordPress will have version bumped! ).
 6. Do a thorough audit and see if it is ready for the WordPress.org plugin repository.
 
@@ -62,3 +62,7 @@ The Github Repo handles continuous integration via TravisCI. When you make a pul
 ## Code of Conduct
 
 Be kind, polite, and respectful of others. Have fun!
+
+### Introduce yourself!
+
+[Post a comment here and introduce yourself!](https://github.com/BE-Webdesign/wp-graphql/issues/23)
