@@ -14,10 +14,10 @@ Here is how to print a message to `stdout` using JavaScript.
 console.log('My first method');
 ```
 
-{% sample lang="go" %}
+{% sample lang="php" %}
 Here is how to print a message to `stdout` using Go.
 
-```go
+```php
 fmt.Println("My first method")
 ```
 
