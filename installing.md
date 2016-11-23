@@ -17,7 +17,7 @@ VVV. VVV comes with all of the tools you need. Essentially you install [Vagrant]
 and a VM. I like [VirtualBox VM](https://www.virtualbox.org/) but Vagrant supports many others.
 
 [Chassis:](https://github.com/Chassis/Chassis)
-Chassis is along the same line as VVV, but is more modularized. It requires more
+Chassis is along the same line as VVV, but is more modular. It requires more
 set up than VVV in some ways but, is faster to boot and sometimes you don't need
 all of the bells and whistles, and if you do well there are some awesome
 extensions for Chassis.
