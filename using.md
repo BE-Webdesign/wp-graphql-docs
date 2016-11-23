@@ -21,9 +21,17 @@ If you do not see the message make sure the WP GraphQL plugin is activated for y
 It is also possible that other plugins are conflicting with WP GraphQL. If you use plugins that modify WP Rewrite rules heavily it may be possible that it will somehow break WP GraphQL. In most cases as long as the WP GraphQL plugin is activated and you are running WordPress 4.7+ and PHP 5.4+, then WP GraphQL will work as intended.
 
 ## GraphiQL
-GraphiQL is a tool that makes working with GraphQL incredibly easy. It features the ability to write queries, see the response and to view the schema backing GraphQL. To use GraphiQL in the browser install this [chrome extension; ChromieQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij). Once ChromieQL is installed.
+GraphiQL is a tool that makes working with GraphQL incredibly easy. It features the ability to write queries, see the response and to view the schema backing GraphQL. To use GraphiQL in the browser install this [chrome extension; ChromieQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij).
 
-You will want to set the endpoint area to `http://local.mywordpress.dev/graphql`. 
+### ChromieQL
+
+Once ChromieQL is installed, you will want to open it up from the icon in the upper right of chrome. It should look something like this:
+
+![](ChromieQL.png)
+
+You will want to set the endpoint to match your WP GraphQL endpoint. `http://local.mywordpress.dev/graphql`. The endpoint is set in the top banner's center input. The left column is where you will want to put your GraphQL query. The left column also features instructions on how to complete a query.
+
+Towards the upper right will be an expandable menu labeled `Docs`. The Documentation Explorer enables you to look through the available queries and types for WP GraphQL. This is an indispensable tool to quickly understand WP GraphQL's type system.  
 
 All this is really doing is sending the GraphQL query string as HTTP request data which is then parsed and executed by the WP GraphQL plugin.
 
