@@ -27,7 +27,7 @@ a very clean final product.
 
 Inline documentation is great. Please use it when tricky things are going on in the code that someone may be unfamiliar with. Inline documentation to describe the intent of the code and document any decisions.
 
-For project level documentation, use the [`gh-pages` branch of the WP GraphQL repository](https://github.com/BE-Webdesign/wp-graphql/tree/gh-pages).
+For project level documentation, use the [WP GraphQL Docs repository](https://github.com/BE-Webdesign/wp-graphql-docs).
 
 ### Test Coverage
 
