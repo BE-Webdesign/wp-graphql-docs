@@ -4,7 +4,7 @@
    * [Installing](installing.md)
    * [Using](using.md)
 * [Contributing](contributing.md)
-* Tutorials
+* [Tutorials](tutorials.md)
    * Getting started.
    * Getting a post.
 
