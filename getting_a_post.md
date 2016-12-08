@@ -52,6 +52,9 @@ Now the response will match the change.
 }
 ```
 
+## Objects within objects, the true power of GraphQL
+One of the most compelling reasons to use WP GraphQL is that is exposes relationships among data easily. The name GraphQL stands for Graph Query Language. A graph in computer science is a particular type of data set. A graph marks the relations of nodes by something known as an edge. 
+
 ## Errors
 If you do not supply an argument to a field that requires one, WP GraphQL will handly return an error message explaining you need it. Let's look at what happens if we try to query for a post without the required id argument.
 ### Bad Query
@@ -84,4 +87,4 @@ Below is a bad query because we are not specifying the required ID argument for 
   ]
 }
 ```
-Notice how our root node is now errors instead of data. This is handy to be able to discern errors from successful queries. In a client you can always check for whether the response is data or errors. The rest of the error response is pretty straightforward and it will even report the offending line of code used for the query.
+Notice how our root node is now errors instead of data. This is handy to be able to discern errors from successful responses. In a client you can always check for whether the response is data or errors. The rest of the error response is pretty straightforward and it will even report the offending line of code used for the query.
