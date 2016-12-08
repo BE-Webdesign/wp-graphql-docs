@@ -1,3 +1,3 @@
 # Tutorials
 
-The tutorials section will feature some basic tutorials covering what you can do with WP GraphQL. The best way to explore WP GraphQL is by setting up ChromieQL discussed in the ["Using" section of the introduction](installing.md).
+The tutorials section will feature some basic tutorials covering what you can do with WP GraphQL. The best way to explore WP GraphQL is by setting up ChromieQL discussed in the ["Using" section of the introduction](installing.md). Once you have WP GraphQL installed and running with ChromieQL doing these tutorials will be a breeze. The tutorials will also cover some basic JavaScript interactions with WP GraphQL.
