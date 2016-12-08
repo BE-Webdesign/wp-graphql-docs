@@ -5,4 +5,5 @@
    * [Using](using.md)
 * [Contributing](contributing.md)
 * Tutorials
+   * Getting started.
 
