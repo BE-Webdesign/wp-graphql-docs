@@ -6,5 +6,5 @@
 * [Contributing](contributing.md)
 * [Tutorials](tutorials.md)
    * [Getting started.](getting_started.md)
-   * Getting a post.
+   * [Getting a post.](getting_a_post.md)
 
