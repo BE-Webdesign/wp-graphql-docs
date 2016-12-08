@@ -6,4 +6,5 @@
 * [Contributing](contributing.md)
 * Tutorials
    * Getting started.
+   * Getting a post.
 
