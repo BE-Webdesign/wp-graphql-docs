@@ -26,4 +26,4 @@ The `{` starts the root level query and `}` finishes it off. Within these bracke
 
 Our response looks almost identical to our query. Unlike our query, the response is actually valid JSON! JSON is a great data format and you can use it in pretty much any programming language. The response has one root level node; data. Within the data node will be matching fields for the query. We queried for hello and we got back a hello field in our response with the matching value.
 
-Let's move on to something more WordPress oriented. [Getting a post](getting_post.md) is up next.
+Let's move on to something more WordPress oriented. [Getting a post](getting_a_post.md) is up next.
