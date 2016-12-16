@@ -76,29 +76,7 @@ One of the most compelling reasons to use WP GraphQL is that it exposes relation
 }
 ```
 
-The post field has a number of fields with in itself. We are grabbing the content and title, which are just basic properties of WP\_Post.  The next fields are where things get interesting.  The author field will resolve to the user matching the post author.  We can then query for any user fields within that scope. Here we are grabbing the display name.  Comments are up next. We will grab the ten most recent comments with this query.  In our response each comment will have the corresponding content and author name.
-
-### Why does this matter?
-
-If you have ever written an API driven front end, you have probably experienced either not having enough data, having too much data, or having to deal with data in an awkward format.  GraphQL solves this problem.  The above query fits a single post view pretty well, but what if we wanted a view based around an author and their posts?
-
-```
-{
-  user(id: 10) {
-    name,
-    posts(first: 20) {
-      title,
-      content,
-      comments(first: 1) {
-        content,
-        author {
-          
-        }
-      }
-    }
-  }
-}
-```
+The post field has a number of fields with in itself. We are grabbing the content and title, which are just basic properties of WP\_Post.  The next fields are where things get interesting.  The author field will resolve to the user matching the post author.  We can then query for any user fields within that scope. Here we are grabbing the display name.  Comments are up next. We will grab the ten most recent comments with this query.  In our response each comment will have the corresponding content and author name.  GraphQL makes it easy to only fetch the data you want and the way you want it.
 
 ## Errors
 
