@@ -80,7 +80,25 @@ The post field has a number of fields with in itself. We are grabbing the conten
 
 ### Why does this matter?
 
-If you have ever written an API driven front end, you have probably experienced either not having enough data, having too much data, or having to deal with data in an awkward format.  GraphQL solves this problem.  The above query fits a single post view pretty well, but what if we wanted a view based around an author.
+If you have ever written an API driven front end, you have probably experienced either not having enough data, having too much data, or having to deal with data in an awkward format.  GraphQL solves this problem.  The above query fits a single post view pretty well, but what if we wanted a view based around an author and their posts?
+
+```
+{
+  user(id: 10) {
+    name,
+    posts(first: 20) {
+      title,
+      content,
+      comments(first: 1) {
+        content,
+        author {
+          
+        }
+      }
+    }
+  }
+}
+```
 
 ## Errors
 
