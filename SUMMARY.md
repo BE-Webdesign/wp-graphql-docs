@@ -1,10 +1,14 @@
 # Summary
 
 * [WP GraphQL Introduction](README.md)
-   * [Installing](installing.md)
-   * [Using](using.md)
+    * [Installing](installing.md)
+    * [Using](using.md)
 * [Contributing](contributing.md)
 * [Tutorials](tutorials.md)
-   * [Getting started.](getting_started.md)
-   * [Getting a post.](getting_a_post.md)
+    * [Getting started.](getting_started.md)
+    * [Getting a post.](getting_a_post.md)
+    * [Getting a user.](getting-a-user.md)
+    * [Getting a comment](getting-a-comment.md)
+    * [Getting posts.](getting-posts.md)
+    * [Handling custom post types.](handling-custom-post-types.md)
 
