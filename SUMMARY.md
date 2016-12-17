@@ -11,4 +11,18 @@
     * [Getting a comment](getting-a-comment.md)
     * [Getting posts.](getting-posts.md)
     * [Handling custom post types.](handling-custom-post-types.md)
+    * Getting users.
+    * Getting comments.
+    * Getting tacos. Mmmm tacos.
+    * Working with menus.
+    * Getting a term.
+    * Getting terms.
+    * Getting a taxonomy.
+    * Getting taxonomies.
+    * Getting a theme.
+    * Getting themes.
+    * Getting a plugin.
+    * Getting plugins.
+    * Getting a post type.
+    * Getting post types.
 
