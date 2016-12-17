@@ -16,13 +16,13 @@ Comments in WordPress are typically used for user to user interactions.  Comment
       }
     }
     post {
-    
+      title
     }
   }
 }
 ```
 
+This will fetch a single comment, its content, posted date, and the author's name and avatar, along with the post title the comment was posted on.
 
-
-
+On it's surface querying by a comment seems pretty trivial but when the full scope of GraphQL is brought into light, a single comment could bring you to entire networks of data through edges.
 
