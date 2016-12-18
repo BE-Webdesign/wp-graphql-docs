@@ -68,7 +68,22 @@ This will query for all of the fields on a menu item.  A major improvement for m
 What if we wanted to get all the information we need to create a view for the "Top Menu"?  Let's look at what the query would look life.
 
 ```
-
+{
+  menu_location(slug: "top") {
+    name
+    active_menu {
+      items {
+        title,
+        type,
+        object_id,
+        object,
+        target,
+        xfn,
+        url
+      }
+    }
+  }
+}
 ```
 
 
