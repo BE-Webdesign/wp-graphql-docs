@@ -33,8 +33,19 @@ This is not super useful let's look at the next type.
 A menu in WordPress can be created and exist without being assigned to a menu location.  This allows you to store menus and swap them in and out.  You could possibly do A/B testing etc. by using different menus.  In WordPress world, a menu is an object term under the \`nav\_menu\` taxonomy.  A menu is really a special kind of group that menu items are placed into.  The following is an example query.
 
 ```
-{}
+{
+  menu(id: 17) {
+    slug,
+    name
+  }
+}
 ```
+
+This will return the slug for the menu, and the name of it.  Menu's themselves aren't terribly useful without finding the associated menu items.  Let's look at menu items next.
+
+## MenuItem
+
+
 
 
 
