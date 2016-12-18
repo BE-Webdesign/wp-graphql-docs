@@ -120,5 +120,7 @@ The response might look something like this.
 }
 ```
 
+The \`active\_menu\` field resolves to the assigned \`Menu\` type and the items field within that resolves to a collection of \`MenuItem\` types.  This enables us to get complete menu data.  What if we wanted to get menu data for every registered menu?
+
 
 
