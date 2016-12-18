@@ -49,7 +49,7 @@ If you have ever clicked on a link in a WordPress navigation menu then you have 
 
 ```
 {
-  items {
+  menu_item(id: 22) {
     title,
     type,
     object_id,
@@ -60,6 +60,8 @@ If you have ever clicked on a link in a WordPress navigation menu then you have 
   }
 }
 ```
+
+This will query for all of the fields on a menu item.  A major improvement for menu items in WP GraphQL would include the \`object\` & \`object\_id\` fields as an edge pointing to the actual resource.  Due to the very diverse possibilities it would be difficult to implement this in WP GraphQL, at some point this should exist though.  Querying for menu items in isolation isn't very useful.  Let's put it all together.
 
 
 
