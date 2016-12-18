@@ -86,5 +86,39 @@ What if we wanted to get all the information we need to create a view for the "T
 }
 ```
 
+The response might look something like this.
+
+```
+{
+  "data": {
+    "menu_location": {
+      "name": "Top Menu",
+      "active_menu": {
+        "items": [
+          {
+            "title": "Yolo",
+            "type": "custom",
+            "object_id": "4",
+            "object": "custom",
+            "target": "",
+            "xfn": "",
+            "url": "http://local.graphql.dev/"
+          },
+          {
+            "title": "Sample Page",
+            "type": "post_type",
+            "object_id": "2",
+            "object": "page",
+            "target": "",
+            "xfn": "",
+            "url": "http://local.graphql.dev/sample-page/"
+          }
+        ]
+      }
+    }
+  }
+}
+```
+
 
 
