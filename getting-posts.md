@@ -62,9 +62,15 @@ Pagination is an important part to any application because it is a gigantic scal
 
 ### First.
 
-First is very similar to a \`per\_page\` value or a \`LIMIT\` query in SQL, 
+First is very similar to a \`per\_page\` value or a \`LIMIT\` query in SQL. In WordPress, it is equivalent to \`posts\_per\_page\` in \`WP\_Query\`, or \`number\` in the other \`\*\_Query\` objects.  Figuring out the right value to use for first, is an art of its own.  Sometimes it must meet project requirements, 
 
 ### After.
+
+After is very similar to \`offset\` in WordPress's \`\*\_Query\` or \`OFFSET\` in SQL.  After becomes very important for moving through your collections.  Say you grabbed the first ten.  Well the next ten would be grabbed by \(first: 10, after: 10\). Pretty neat.
+
+### Future pagination Relay compliant collections.
+
+Relay is a client library that helps make performant queries etc., when working with GraphQL.  WP GraphQL does not currently implement Relay compliant collections, known as connections but will in the 0.3.0/0.2.0 release.
 
 
 
