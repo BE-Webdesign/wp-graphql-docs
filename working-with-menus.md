@@ -1,4 +1,4 @@
-# Working with menus.
+## Working with menus.
 
 We won't cover each type of menu related thing in WP GraphQL. Instead, we will cover the three at once to show how menus can be queried for in WP GraphQL.  The three types relating to menus are \`MenuLocation\`, \`Menu\`, \`MenuItem\`.  Let's breakdown what each of these is.
 
@@ -61,7 +61,15 @@ If you have ever clicked on a link in a WordPress navigation menu then you have 
 }
 ```
 
-This will query for all of the fields on a menu item.  A major improvement for menu items in WP GraphQL would include the \`object\` & \`object\_id\` fields as an edge pointing to the actual resource.  Due to the very diverse possibilities it would be difficult to implement this in WP GraphQL, at some point this should exist though.  Querying for menu items in isolation isn't very useful.  Let's put it all together.
+This will query for all of the fields on a menu item.  A major improvement for menu items in WP GraphQL would include the \`object\` & \`object\_id\` fields as an edge pointing to the actual resource.  Due to the very diverse possibilities it would be difficult to implement this in WP GraphQL, at some point this should exist though.  Querying for menu items in isolation isn't very useful.  Let's do something useful.
+
+## Putting it all together.
+
+What if we wanted to get all the information we need to create a view for the "Top Menu"?  Let's look at what the query would look life.
+
+```
+
+```
 
 
 
