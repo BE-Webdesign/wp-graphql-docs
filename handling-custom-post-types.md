@@ -39,9 +39,11 @@ Each WP GraphQL parameter is an internal non user facing name, do not use transl
 
 ## GraphQL singular type.
 
+\`graphql\_singular\_type\` is very important. This is the name of the type to be registered in the WP GraphQL type system. To follow standards you should register the type with uppercase letters for each word.  In the example above we use \`Book\`. When doing an introspection of the 
+
 ## GraphQL plural type.
 
-
+\`graphql\_plural\_type\` is currently not used but if you want to be ahead of the game, eventually when Relay compliant collections are put in place, the GraphQL plural type will map to the type for that connection.  Currently the \`books\` query will resolve to a \`ListOf\` Type for the matching singular type.  Currently, the query field \`books\` will resolve to \`\[ Book \]\`, meaning a list of \`Book\` type nodes.  In the future the types will resolve to an actual plural type and our books post type query will resolve to \`Books\`.
 
 
 
