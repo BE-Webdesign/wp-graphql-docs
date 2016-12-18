@@ -141,5 +141,7 @@ The \`active\_menu\` field resolves to the assigned \`Menu\` type and the items 
 }
 ```
 
-Yup, it really is that simple. This query will retrieve each registered menu's name, and active menu's items. If the active menu has no items, the \`items\` field will resolve to \`null\` and if the registered menu does not have an active menu that field will resolve to \`null\`.  This inherent \`null\` in GraphQL is very useful.  You may be asking, "how do I get nested menu items", at this current time, WP GraphQL does not support those kind of queries.
+Yup, it really is that simple. This query will retrieve each registered menu's name, and active menu's items. If the active menu has no items, the \`items\` field will resolve to \`null\` and if the registered menu does not have an active menu that field will resolve to \`null\`.  This inherent \`null\` in GraphQL is very useful.
+
+You may be asking, "how do I get nested menu items"? At this current time, WP GraphQL does not support those kind of queries.
 
