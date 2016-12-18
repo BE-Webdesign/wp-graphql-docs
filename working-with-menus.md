@@ -45,5 +45,21 @@ This will return the slug for the menu, and the name of it.  Menu's themselves a
 
 ## MenuItem
 
-If you have ever clicked on a link in a WordPress navigation menu then you have used a menu item. Menu items in WordPress are actually just a custom post type.  The special information is stored in the post meta tables.  Let's look at how to query for a menu item.  
+If you have ever clicked on a link in a WordPress navigation menu then you have used a menu item. Menu items in WordPress are actually just a custom post type.  The special information is stored in the post meta tables.  Let's look at how to query for a menu item.
+
+```
+{
+items {
+        title,
+        type,
+        object_id,
+        object,
+        target,
+    xfn,
+    url
+  }
+}
+```
+
+
 
