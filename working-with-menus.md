@@ -122,5 +122,26 @@ The response might look something like this.
 
 The \`active\_menu\` field resolves to the assigned \`Menu\` type and the items field within that resolves to a collection of \`MenuItem\` types.  This enables us to get complete menu data.  What if we wanted to get menu data for every registered menu?
 
+```
+{
+  menu_locations {
+    name
+    active_menu {
+      items {
+        title,
+        type,
+        object_id,
+        object,
+        target,
+        xfn,
+        url
+      }
+    }
+  }
+}
+```
+
+Yup, it really is that simple. If the active menu has no items, the \`items\` field will resolve to \`null\` and if the registered menu does not have an active menu that field will resolve to \`null\`.  This inherent \`null\` in GraphQL is very useful.  I think this makes fetching menus very easy!
+
 
 
