@@ -49,12 +49,12 @@ If you have ever clicked on a link in a WordPress navigation menu then you have 
 
 ```
 {
-items {
-        title,
-        type,
-        object_id,
-        object,
-        target,
+  items {
+    title,
+    type,
+    object_id,
+    object,
+    target,
     xfn,
     url
   }
