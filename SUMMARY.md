@@ -18,7 +18,7 @@
     * [Getting a term.](getting-a-term.md)
     * [Getting terms.](getting-terms.md)
     * [Getting a taxonomy.](getting-a-taxonomy.md)
-    * Getting taxonomies.
+    * [Getting taxonomies.](getting-taxonomies.md)
     * Getting a theme.
     * Getting themes.
     * Getting a plugin.
