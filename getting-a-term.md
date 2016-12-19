@@ -16,3 +16,17 @@ Terms are used to group various entities in WordPress, typically posts. Terms ar
 
 And the response might look like this.
 
+```
+{
+  "data": {
+    "term": {
+      "name": "Texas Style",
+      "slug": "texas",
+      "id": 1
+    }
+  }
+}
+```
+
+More to come on terms.
+
