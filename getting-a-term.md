@@ -6,9 +6,13 @@ Terms are used to group various entities in WordPress, typically posts. Terms ar
 
 ```
 {
-  term(id: yolo)
+  term(id: 1) {
+    name,
+    slug,
+    id
+  }
 }
 ```
 
-
+And the response might look like this.
 
