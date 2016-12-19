@@ -16,7 +16,7 @@
     * [Getting tacos. Mmmm tacos.](getting-tacos-mmmm-tacos.md)
     * [Working with menus.](working-with-menus.md)
     * [Getting a term.](getting-a-term.md)
-    * Getting terms.
+    * [Getting terms.](getting-terms.md)
     * Getting a taxonomy.
     * Getting taxonomies.
     * Getting a theme.
