@@ -6,10 +6,10 @@ Terms are used to group various entities in WordPress, typically posts. Terms ar
 
 ```
 {
-  term(id: 1) {
+  taxonomy(name: "BBQ") {
     name,
     slug,
-    id
+    description,
   }
 }
 ```
@@ -19,10 +19,10 @@ And the response might look like this.
 ```
 {
   "data": {
-    "term": {
-      "name": "Texas Style",
-      "slug": "texas",
-      "id": 1
+    "taxonomy": {
+      "name": "BBQ",
+      "slug": "bbq",
+      "description": ""
     }
   }
 }
