@@ -17,7 +17,7 @@
     * [Working with menus.](working-with-menus.md)
     * [Getting a term.](getting-a-term.md)
     * [Getting terms.](getting-terms.md)
-    * Getting a taxonomy.
+    * [Getting a taxonomy.](getting-a-taxonomy.md)
     * Getting taxonomies.
     * Getting a theme.
     * Getting themes.
