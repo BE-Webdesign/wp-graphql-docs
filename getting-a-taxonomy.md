@@ -22,7 +22,7 @@ And the response might look like this.
     "taxonomy": {
       "name": "BBQ",
       "slug": "bbq",
-      "description": ""
+      "description": "Barbecue, is an artform."
     }
   }
 }
