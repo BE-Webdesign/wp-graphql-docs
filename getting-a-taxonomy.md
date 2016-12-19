@@ -28,5 +28,5 @@ And the response might look like this.
 }
 ```
 
-More to come on terms.
+More to come on taxonomies.
 
