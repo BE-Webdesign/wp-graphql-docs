@@ -1,6 +1,6 @@
 # Getting a taxonomy.
 
-Taxonomies are classifications of groups. 
+Taxonomies are classifications of groups. Terms are assigned to taxonomies. More about taxonomies coming soon.
 
 ## Querying for a taxonomy.
 
